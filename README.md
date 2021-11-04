@@ -1,2 +1,7 @@
-# Bash_Linux_Utils
-This folder contains useful code snippets for bash/linux/unix
+# Bash/Linux Utils
+This folder contains code snippets for bash/linux/unix
+
+1) Print number of directories inside specified path
+```
+>>> ls | wc -l
+```
