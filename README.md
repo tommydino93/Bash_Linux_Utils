@@ -11,3 +11,8 @@ This folder contains code snippets for bash/linux/unix
 ```bash
 >>> du -a /path/to/dir/ | sort -n -r | head -n 5
 ```
+
+### 3) Check ubuntu version
+```bash
+>>> lsb_release -a
+```
