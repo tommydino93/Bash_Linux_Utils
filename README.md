@@ -31,3 +31,5 @@ This folder contains code snippets for bash/linux/unix
 - z: compress file data
 - h: human-readable, output numbers in a human-readable format
 - n: dry-run; performs a trial run with no changes made
+- delete: delete extraneous files from destination dirs
+- ignore-existing: skip updating files that already exist on destination dirs
