@@ -16,3 +16,18 @@ This folder contains code snippets for bash/linux/unix
 ```bash
 >>> lsb_release -a
 ```
+
+### 4) Copy/Synchronize directories with rsync
+```bash
+# dry-run trial mode (i.e. no changes are made)
+>>> rsync -vrazhn /path/to/src/ /path/to/dst/ --delete --ignore-existing
+
+# real command (i.e. actual modifications are made)
+>>> rsync -vrazh /path/to/src/ /path/to/dst/ --delete --ignore-existing
+```
+- v: verbose
+- r: recursively
+- a: archive mode; allows copying files recursively and also preserves symbolic links
+- z: compress file data
+- h: human-readable, output numbers in a human-readable format
+- n: dry-run; performs a trial run with no changes made
