@@ -34,3 +34,8 @@ This folder contains code snippets for bash/linux/unix
 - delete: delete extraneous files from destination dirs
 - ignore-existing: skip updating files that already exist on destination dirs
 - progress: show data transfer progress
+
+### 5) Check disk space taken by one directory
+```bash
+>>> du -hs /path/to/dir
+```
