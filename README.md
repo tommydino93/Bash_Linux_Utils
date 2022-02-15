@@ -23,7 +23,7 @@ This folder contains code snippets for bash/linux/unix
 >>> rsync -vrazhn /path/to/src/ /path/to/dst/ --delete --ignore-existing
 
 # real command (i.e. actual modifications are made)
->>> rsync -vrazh /path/to/src/ /path/to/dst/ --delete --ignore-existing  -progress
+>>> rsync -vrazh /path/to/src/ /path/to/dst/ --delete --ignore-existing  --progress
 ```
 - v: verbose
 - r: recursively
