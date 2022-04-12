@@ -40,3 +40,11 @@ This folder contains code snippets for bash/linux/unix
 ```bash
 >>> du -hs /path/to/dir
 ```
+
+### 6) Install an SSH key on a server as an authorized key
+```bash
+# generate key (in case you don't have one)
+>>> ssh-keygen
+# copy ssh key to server; its purpose is to provide access without requiring a password for each login
+>>> ssh-copy-id user@server
+```
