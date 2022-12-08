@@ -54,3 +54,8 @@ This folder contains code snippets for bash/linux/unix
 >>> lscpu
 ```
 “CPU(s): XX” represents the number of logical cores, which equals “Thread(s) per core” × “Core(s) per socket” × “Socket(s)”. One socket is one physical CPU package (which occupies one socket on the motherboard); each socket hosts a number of physical cores, and each core can run one or more threads
+
+### 8) Install .deb file
+```bash
+>>> sudo dpkg -i package_file.deb
+```
