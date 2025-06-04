@@ -59,3 +59,9 @@ This folder contains code snippets for bash/linux/unix
 ```bash
 >>> sudo dpkg -i package_file.deb
 ```
+
+### 9) Unpack .tar.gz file
+```bash
+>>> tar -xvzf filename.tar.gz
+```
+where `x` is extract, `v` is verbose, `z` is gzip-compressed, `f` is for file
