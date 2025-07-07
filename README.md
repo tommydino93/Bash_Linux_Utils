@@ -65,3 +65,9 @@ This folder contains code snippets for bash/linux/unix
 >>> tar -xvzf filename.tar.gz
 ```
 where `x` is extract, `v` is verbose, `z` is gzip-compressed, `f` is for file
+
+### 10) Search for pattern in file or output with grep (Global Regular Expression Print)
+```bash
+>>> grep [options] pattern [file...]
+```
+with useful options being: `-i` to ignore case (e.g. "Apple" = "apple"), `-v` to Invert match (i.e. show lines not matching), `-n` to show line numbers, `-r` for recursive search directories
