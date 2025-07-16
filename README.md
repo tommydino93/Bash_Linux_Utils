@@ -71,3 +71,8 @@ where `x` is extract, `v` is verbose, `z` is gzip-compressed, `f` is for file
 >>> grep [options] pattern [file...]
 ```
 with useful options being: `-i` to ignore case (e.g. "Apple" = "apple"), `-v` to Invert match (i.e. show lines not matching), `-n` to show line numbers, `-r` for recursive search directories
+
+### 11) Create empty bash file
+```bash
+>>> touch my_file.sh   # will create the file in the current directory
+```
