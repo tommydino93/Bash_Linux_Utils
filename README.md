@@ -76,3 +76,14 @@ with useful options being: `-i` to ignore case (e.g. "Apple" = "apple"), `-v` to
 ```bash
 >>> touch my_file.sh   # will create the file in the current directory
 ```
+### 12) Change mode (permissions) to a file
+```bash
+>>> chmod +x my_file.sh   # will create the file in the current directory
+```
+options: `u` (user=the file owner), `g` (group=users in the file's group), `o` (others=everyone else); the three basic permission types: `r` (read), `w` (write), `x` (execute)
+```bash
+# examples
+>>> chmod u+x file.sh   # add execute permission for the user
+>>> chmod g-w file.sh   # remove write permission for the group
+>>> chmod o=r file.sh   # set only read permission for others
+```
