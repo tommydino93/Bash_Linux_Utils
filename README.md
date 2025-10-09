@@ -38,7 +38,8 @@ This folder contains code snippets for bash/linux/unix
 
 ### 5) Check disk space taken by one directory
 ```bash
->>> du -hs /path/to/dir
+>>> du -hsx /path/to/dir
+where `x` is to exclude for instance mounted servers, `h` is for human-readable sizes and `s` is to summarize the total (and don't list subdirectories)
 ```
 
 ### 6) Install an SSH key on a server as an authorized key
