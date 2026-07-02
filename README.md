@@ -88,3 +88,7 @@ options: `u` (user=the file owner), `g` (group=users in the file's group), `o` (
 >>> chmod g-w file.sh   # remove write permission for the group
 >>> chmod o=r file.sh   # set only read permission for others
 ```
+### 13) Print number of files inside directory
+```bash
+>>> ls -1 | wc -l   # ls -1: Lists everything in one column; wc -l: Counts the number of lines.
+```
